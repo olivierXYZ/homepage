@@ -1,0 +1,17 @@
+.grid_container {
+    display: grid;
+    grid-template-columns:150px auto 150px;
+    grid-template-rows: 150px 150px;
+    grid-gap: 10px;
+
+}
+
+.grid_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lawngreen;
+    border-radius: 5px;
+    font-size: 2em;
+    color: lightcoral;
+}
